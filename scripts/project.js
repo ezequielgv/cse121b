@@ -73,7 +73,7 @@ function printLifes() { // Display remaining lives as hearts.
     const hearts = Array.from({ length: totalLife }, () => {
         const iElement = document.createElement('i');
         iElement.classList.add('fa-solid', 'fa-heart');
-        return iElement;
+        return iElement; 
     });
     divLife.append(...hearts);
 }
