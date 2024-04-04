@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 121b | Ezequiel Videla Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/project.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="w01-task.html">W1 Task</a></li>
+            <li><a href="w03-task.html">W3 Task</a></li>
+            <li><a href="w04-task.html">W4 Task</a></li>
+            <li><a href="w05-task.html">W5 Task</a></li>
+            <li><a href="project.html" class="active">Project</a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <h3 class="title">Who's that pokémon?!</h3>
+        <div class="">
+            <button type="button" class="btn" id="btn-reset"><b>Click to Reset</b></button>
+        </div>
+
+        <div id="total-life"></div>
+        <p class="score"><b>Score:</b> <span id="score"></span></p>
+
+        <section class="form">
+            <div class="">
+                <input type="text" id="inp-letter" placeholder="Guess a letter">
+                
+                <button type="button" class="btn" id="btn-guess"><b>Try Guess</b></button>
+            </div>
+        </section>
+
+        <div class="div-errors">
+            <h4 class="title">List of errors:</h4>
+            <div id="error-letters"></div>
+        </div>
+
+        <section id="secret-name"> </section>
+
+    </main>
+    <footer> &copy;<span id="year"></span> | About Me | CSE 121b </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/project.js"></script>
+    <script src="https://kit.fontawesome.com/4d5f7d1873.js" crossorigin="anonymous"></script>  <!-- Icons -->
+
+</body>
+</html>
